@@ -1,0 +1,140 @@
+---
+---
+
+<!-- Gallery Section - Open Play Sessions Marquee -->
+<section id="gallery" class="bg-[#efe7dc] py-12 md:py-16 overflow-hidden">
+  <div class="w-full">
+    <!-- Section Header -->
+    <div class="text-center mb-8 md:mb-12 header-padding" style="padding-left: 100px; padding-right: 100px;">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl text-[#143315] font-bold mb-4" style="font-family: 'Poppins', sans-serif;">
+        Where Every Game Feels Like Home
+      </h2>
+      <p class="text-base md:text-lg text-[#143315]/80 mb-6">
+        See the excitement from our recent open play sessions!
+      </p>
+    </div>
+    
+    <!-- Marquee Scroll Container -->
+    <div class="relative mt-12">
+      <!-- Gradient Overlays for smooth edges -->
+      <div class="absolute left-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-r from-[#efe7dc] to-transparent z-10"></div>
+      <div class="absolute right-0 top-0 bottom-0 w-32 md:w-48 bg-gradient-to-l from-[#efe7dc] to-transparent z-10"></div>
+      
+      <!-- Marquee Animation Container -->
+      <div class="marquee-container">
+        <div class="marquee-content">
+          <!-- First set of images -->
+          <div class="marquee-item">
+            <img src="/openplay1.jpg" alt="Open Play Session 1" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay3.jpg" alt="Open Play Session 3" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay4.jpg" alt="Open Play Session 4" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay5.jpg" alt="Open Play Session 5" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay6.jpg" alt="Open Play Session 6" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay7.jpg" alt="Open Play Session 7" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay8.jpg" alt="Open Play Session 8" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay9.jpg" alt="Open Play Session 9" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay10.jpg" alt="Open Play Session 10" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay11.jpg" alt="Open Play Session 11" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay12.jpg" alt="Open Play Session 12" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          
+          <!-- Duplicate set for seamless loop -->
+          <div class="marquee-item">
+            <img src="/openplay1.jpg" alt="Open Play Session 1" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay3.jpg" alt="Open Play Session 3" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay4.jpg" alt="Open Play Session 4" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay5.jpg" alt="Open Play Session 5" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay6.jpg" alt="Open Play Session 6" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay7.jpg" alt="Open Play Session 7" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay8.jpg" alt="Open Play Session 8" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay9.jpg" alt="Open Play Session 9" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay10.jpg" alt="Open Play Session 10" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay11.jpg" alt="Open Play Session 11" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+          <div class="marquee-item">
+            <img src="/openplay12.jpg" alt="Open Play Session 12" class="h-64 md:h-80 w-auto object-cover rounded-lg shadow-xl" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .marquee-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .marquee-content {
+    display: flex;
+    gap: 2rem;
+    animation: scroll 50s linear infinite;
+    will-change: transform;
+  }
+  
+  .marquee-item {
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .marquee-content:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .marquee-content {
+      animation-duration: 35s;
+      gap: 1rem;
+    }
+  }
+</style>
